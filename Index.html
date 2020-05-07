@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\Jorge\Desktop\install bootstrap\css\bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+  <script src="https://kit.fontawesome.com/73d53d0848.js" crossorigin="anonymous"></script>
+  <title>Bootstrap webside</title>
+</head>
+<body>
+  <!-- NAVEGACION  -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="C:\Users\Jorge\Desktop\Bootstrap webside\img\logo.jpg" alt="logo De XXXTENTACION" style="width:7%;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item nav-link" href="#">Team</a>
+        <a class="nav-item nav-link" href="#">Contact</a>
+      </div>
+    </div>
+  </div>
+ </nav>
+
+ <!-- CABEZERA  -->
+
+ <header class="main-header">
+   <div class="background-overlay text-white py-5">
+     <div class="container">
+       <div class="row">
+         <div class="col-md-6 text-center justify-content-center align-self-center">
+           <h1>Este es un titulo o una frase relacionada a la web</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, assumenda.</p>
+           <a href="#" class="btn btn-outline-secondary btn-lg text-white">Leer Mas</a>
+         </div>
+         <div class="col-md-6">
+           <img src="img\rapero-xxxtentacion.jpg"
+            alt="XXXTENTACION" class="img-fluid d-none d-sm-block">
+         </div>
+       </div>
+     </div>
+   </div>
+</header>
+<!-- NEWSLETTER  -->
+<section class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <input type="text" class="form-control from-control-lg" placeholder="Ingrese su nombre">
+      </div>
+      <div class="col-md-4">
+        <input type="email" class="form-control from-control-lg" placeholder="Ingrese su email">
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-primary btn-block ">
+          Suscribete
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARACTERISTICAS  -->
+
+ <section class="py-5">
+   <div class="container">
+     <div class="row">
+       <div class="col-md-3">
+         <div class="card text-center border-primary">
+           <div class="card-body">
+             <h3>Caracteristica uno</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-3">
+         <div class="card text-center bg-primary text-white">
+           <div class="card-body">
+             <h3>Caracteristica dos</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-3">
+         <div class="card text-center border-primary">
+           <div class="card-body">
+             <h3>Caracteristica tres</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-3">
+         <div class="card text-center bg-primary text-white">
+           <div class="card-body">
+             <h3>Caracteristica cuatro</h3>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+<!--  ACERCA DE  -->
+ <section class="bg-light text-center">
+   <div class="container">
+     <div class="row">
+       <div class="m-5">
+         <h3>Por que este producto?</h3>
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque nihil, velit assumenda debitis, corporis esse perspiciatis error, reiciendis consequatur aliquam deleniti quam accusantium, cupiditate magni.</p>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <!--  ACORDEON  -->
+ <section class="container text-center p-5">
+  <div class="row">
+    <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Pregunta #1
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, eos, neque inventore voluptatem facilis saepe officia aliquam, quas porro dolore, atque debitis velit architecto dicta. Molestias, veniam, eius. Architecto optio atque doloribus expedita reiciendis dolor at odit tenetur nam odio?
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Pregunta #2
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit sit, adipisci excepturi aperiam cum, asperiores similique illum mollitia! Exercitationem saepe quasi soluta. Debitis ex obcaecati odit tempore ratione, possimus accusamus. Voluptatum quibusdam quaerat beatae vitae perferendis assumenda reprehenderit pariatur commodi.
+      </div>
+    </div>
+  </div>
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Pregunta #3
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <d<iv class="card-body">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, tempore natus incidunt eum odio qui iure voluptas laboriosam nobis eius aperiam animi, quos laudantium quisquam officiis neque dolor aspernatur distinctio pariatur! Cupiditate cumque laboriosam voluptatem voluptates quam, vel, consectetur a.
+      </div>
+    </div>
+  </div>
+ </div>
+  </div>   
+ </section>
+
+<!--  EQUIPO  -->
+
+<section class="team text-center">
+  <div class="container p-5">
+    <h1 class="text-white">Equipo</h1>
+    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, dolorum.</p>
+    <div class="row">
+      <!--  MIEBRO  -->
+      <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/team 1.jpg" class="img-fluid rounded-circle w-50" alt="persona 1">
+              <h3>David</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-facebook-f"></i>
+                   </a>
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-twitter"></i>
+                   </a>
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-instagram"></i>
+                   </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+       <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/valery.png" class="img-fluid rounded-circle w-50" alt="persona 1">
+              <h3>Valery</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-facebook-f"></i>
+                   </a>           
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-twitter"></i>
+                   </a>
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-instagram"></i>
+                   </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+       <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/team 2.jpg" class="img-fluid rounded-circle w-50" alt="persona 1">
+              <h3>Yomar</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-facebook-f"></i>
+                   </a>
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-twitter"></i>
+                   </a>
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-instagram"></i>
+                   </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+
+       <div class="col-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/xxx.png" class="img-fluid rounded-circle w-50" alt="persona 1">
+              <h3>Xxxtentacion</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+                <div class="d-flex flex-row justify-content-center">
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-facebook-f"></i>
+                   </a>
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-twitter"></i>
+                   </a>
+                  </div>
+                  <div class="p-4">
+                   <a href="https://www.facebook.com/david.manzanomaita?epa=SEARCH_BOX" target="_blank">
+                     <i class="fab fa-instagram"></i>
+                   </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------------------     CONTACTO      ------------------------------->
+
+ <section class="bg-light py-5" >
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-9">
+         <h3 class="text-center">Contactanos</h3>
+         <p class="text-center">Lorem ipsum dolor sit amet.</p>
+         <form action="">
+           <div class="input-group mb-3">
+             <div class="input-group-prepend input-group-text">
+               <i class="fas fa-user-check"></i>
+             </div>
+             <input type="text" class="form-control" placeholder=Nombre>  
+           </div>
+           <div class="input-group mb-3">
+             <div class="input-group-prepend input-group-text">
+               <i class="fas fa-envelope"></i>
+             </div>
+             <input type="email" class="form-control" placeholder=Email>  
+           </div>
+           <div class="input-group mb-3">
+             <div class="input-group-prepend input-group-text">
+               <i class="fas fa-pencil-alt"></i>
+             </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>  
+           </div>
+            <button class="btn btn-primary btn-lg btn-block">Envia tu mensaje
+            </button>
+         </form>
+       </div>
+       <div class="col-lg-3 align-self-center">
+         <img src="img/logo.jpg"alt="Logo XXXTENTACION" class="img-fluid">
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <section>
+   <footer>
+     <div class="container p-3 text-center text-white">
+       <div>
+         <p>Copyright &copy 2020</p>
+       </div>
+     </div>
+   </footer>
+ </section>
+
+
+  <script src="C:\Users\Jorge\Desktop\install bootstrap\js\jquery-3.5.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="C:\Users\Jorge\Desktop\install bootstrap\js\bootstrap.min.js"></script>
+</body>
+</html>

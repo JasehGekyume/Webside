@@ -1,0 +1,34 @@
+:root {
+	--color-primario:rgb(55, 66, 250);
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: .8;
+}
+.navbar .navbar-nav .nav-item{
+  color:#ffff;
+
+
+}
+.main-header {
+  position: relative;	
+  background: url(img/Xxx_.jpg);
+  background-size: cover;
+  min-height: 500px;
+}
+.background-overlay {
+	position: absolute;
+	background:rgba(55, 66, 250,.6); 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.form-control, .btn {
+	border-radius: 0;
+}
+
+.team, footer{
+	background: var(--color-primario);
+}
